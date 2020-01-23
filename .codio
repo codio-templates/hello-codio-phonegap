@@ -1,0 +1,13 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Start Server": "python3 start_server.py"
+  },
+
+// Preview button configuration
+  "preview": {
+        "PhoneGap Output": "http://{{domain3000}}/"
+  }
+}
