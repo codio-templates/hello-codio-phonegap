@@ -20,13 +20,20 @@ Next, click on "PhoneGap Output" to see the output from the student work. A new 
 
 ![PhoneGap Output](readme_images/phonegap-output.png)
 
-You can also see the output running on a mobile device. In order to do this, you must first change two project settings. In the Codio menu bar, click "Project" and then "Settings...". Make sure that you turn on private static preview and turn off protect dynamic ports.
+
+#### Viewing the Output on a mobile device
+You can also see the output running on a mobile device. In order to do this, you must first change two project settings. In the Codio menu bar, select **Project->Settings...**. Turn on private static preview and turn off protect dynamic ports by clicking on them. Check that the two settings match the image below and then click **SAVE CHANGES**. The **SECURE BACKEND DOMAIN URL** will appear once your changes are saved.
 
 ![Project Settings](readme_images/phonegap-settings.png)
 
-Click the two buttons as mentioned above. Then type the project's URL into a mobile browser.
+Your project's URL can be constructed using the unique Codio box domain information generated for you.
 
-![PhoneGap Domain](readme_images/phonegap-domain.png)
+Open a Terminal window by selecting **Tools->Terminal** and locate the information in the image below. Construct the mobile URL by adding `-3000.codio.io` to your unique Codio box name. 
+
+
+![readme_images/domain-name](readme_images/domain-name.png)
+In this example, the mobile URL will be: `citizen-unique-3000.codio.io`. Type this URL into your mobile browser to try it out.
+
 
 ## Creating Your Own Project
 By default, the PhoneGap starter pack uses the project named `myApp`. This folder can be renamed, however the "Start Server" button will no longer work. This button calls the Python script `start_server.py`. This script expects a PhoneGap folder with the name `myApp`. If you change the folder name, change the script to reflect the new folder name.
